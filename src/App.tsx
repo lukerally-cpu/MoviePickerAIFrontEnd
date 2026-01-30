@@ -9,7 +9,7 @@ interface Movie {
 }
 
 const TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYmY2OTIyYmMwNzk5NmViMzdlNjlmMzY3YWVlZmY4YiIsIm5iZiI6MTc2OTcxNTA4Ny40NDk5OTk4LCJzdWIiOiI2OTdiYjU4Zjk1OGM4ZDk1YTE3ZjdhMDEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.v2D1l-jBc0Z7UFNIUqyg5Z99mzrPXga-f4qyE59Na30";
-const FLASK_URL = "http://127.0.0.1:5000/recommend";
+const FLASK_URL = "https://moviepickerai-3.onrender.com/recommend";
 
 // --- STAR RATER COMPONENT ---
 const StarRating = ({ rating, onRate }: { rating: number, onRate: (n: number) => void }) => {
